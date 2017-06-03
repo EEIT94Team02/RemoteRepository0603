@@ -13,7 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 public class TestServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest requset,
+
 			HttpServletResponse response) throws ServletException, IOException {
+
 		response.setContentType("text/html; charset=UTF-8"); 
 		PrintWriter out = response.getWriter();
 		out.println("<h1>李沐恩</h1>");
