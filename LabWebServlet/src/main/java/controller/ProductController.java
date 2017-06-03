@@ -46,16 +46,16 @@ public class ProductController {
 //轉換資料
 		if(bindingResult!=null && bindingResult.hasErrors()) {
     		if(bindingResult.getFieldError("id")!=null) {
-    			errors.put("id", "Id欄位請輸入整數 (FBB)");
+    			errors.put("id", "Id欄位請輸入整數 (第三次Commit測試)");
     		}
     		if(bindingResult.getFieldError("price")!=null) {
-    			errors.put("price", "Price欄位請輸入整數 (FBB)");
+    			errors.put("price", "Price欄位請輸入整數 (第三次Commit測試)");
     		}
     		if(bindingResult.getFieldError("make")!=null) {
-    			errors.put("make", "Make必須是擁有YYYY-MM-DD格式的日期 (FBB)");
+    			errors.put("make", "Make必須是擁有YYYY-MM-DD格式的日期 (第三次Commit測試)");
     		}
     		if(bindingResult.getFieldError("expire")!=null) {
-    			errors.put("expire", "Expire欄位請輸入整數 (FBB)");
+    			errors.put("expire", "Expire欄位請輸入整數 (第三次Commit測試)");
     		}
 		}
 		
