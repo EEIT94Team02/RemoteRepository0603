@@ -5,9 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
-
 <title>Git Product</title>
 <script type="text/javascript" src="../js/json2.js"></script>
 <script type="text/javascript" src="../js/product.js"></script>
@@ -41,6 +39,7 @@ function clearForm() {
 <h3>Welcome ${user.email}</h3>
 
 <h3>Git Product Table</h3>
+
 <h4><a href="${pageContext.request.contextPath}/index.jsp">Back Home</a></h4>
 <form action="<c:url value="/pages/product.controller" />" method="get">
 <table>
