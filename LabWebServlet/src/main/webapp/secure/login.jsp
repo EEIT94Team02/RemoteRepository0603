@@ -5,12 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
-
 <title>Git Login</title>
 </head>
 <body>
+
 
 <h3>Git Login</h3>
 <h4><a href="${pageContext.request.contextPath}/index.jsp">Back Home</a></h4>
@@ -25,6 +24,7 @@
 	<tr>
 		<td>PWD : </td>
 		<td><input type="text" name="password" value="${param.password}"></td>
+
 		<td>${errors.passwordError}</td>
 	</tr>
 	<tr>
