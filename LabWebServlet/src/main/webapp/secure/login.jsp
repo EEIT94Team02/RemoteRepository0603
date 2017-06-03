@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-<title>Git Login</title>
+<title>Kappa Login</title>
 </head>
 <body>
 
