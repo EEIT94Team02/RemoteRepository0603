@@ -43,7 +43,7 @@ function hidePhoto() {
 }
 
 </script>
-<title>Git Display</title>
+<title>Display</title>
 </head>
 <body>
 
