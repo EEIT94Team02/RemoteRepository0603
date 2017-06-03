@@ -8,7 +8,8 @@
 
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-<title>Kappa Login</title>
+
+<title>Git Login</title>
 </head>
 <body>
 
@@ -26,8 +27,8 @@
 	<tr>
 		<td>PWD : </td>
 		<td><input type="text" name="password" value="${param.password}"></td>
-		<td>${errors.passwordError}</td>
 
+		<td>${errors.passwordError}</td>
 	</tr>
 	<tr>
 		<td>　</td>
