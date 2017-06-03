@@ -40,7 +40,8 @@ function clearForm() {
 
 <h3>Welcome ${user.email}</h3>
 
-<h3>xxxProduct Table</h3>
+<h3>OOO Product Table</h3>
+<h6>請輸入資料</h6>
 
 <form action="<c:url value="/pages/product.controller" />" method="get">
 <table>
