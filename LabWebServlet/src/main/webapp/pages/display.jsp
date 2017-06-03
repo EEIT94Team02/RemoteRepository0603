@@ -41,6 +41,7 @@ function hidePhoto() {
 		photoNode.removeChild(photoNode.firstChild);
 	}
 }
+
 </script>
 <title>Display</title>
 </head>

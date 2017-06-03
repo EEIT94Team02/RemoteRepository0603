@@ -5,16 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
-=======
-<link rel="stylesheet" type="text/css" href="../css/main.css" />
-
->>>>>>> branch 'master' of https://github.com/EEIT94Team02/RemoteRepository0603.git
 <title>Git Login</title>
 </head>
 <body>
+
 
 <h3>Git Login</h3>
 <h4><a href="${pageContext.request.contextPath}/index.jsp">Back Home</a></h4>
@@ -29,6 +24,7 @@
 	<tr>
 		<td>PWD : </td>
 		<td><input type="text" name="password" value="${param.password}"></td>
+
 		<td>${errors.passwordError}</td>
 	</tr>
 	<tr>
