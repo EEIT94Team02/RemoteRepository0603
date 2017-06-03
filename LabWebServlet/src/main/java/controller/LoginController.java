@@ -32,10 +32,10 @@ public class LoginController {
 		model.addAttribute("errors", errors);
 		
 		if(username==null || username.length()==0) {
-			errors.put("xxx", "請輸入帳號");
+			errors.put("usernameError", "請輸入帳號 Git");
 		}
 		if(password==null || password.length()==0) {
-			errors.put("ooo", "請輸入密碼");
+			errors.put("passwordError", "請輸入密碼 Git");
 		}
 		
 		if(errors!=null && !errors.isEmpty()) {
@@ -46,7 +46,7 @@ public class LoginController {
 
 //根據Model執行結果呼叫View
 		if(bean==null) {
-			errors.put("ooo", "登入失敗，請再次輸入帳號密碼");
+			errors.put("passwordError", "登入失敗，請再次輸入帳號密碼");
 			return "login.error";
 		} else {
 			model.addAttribute("user", bean);
