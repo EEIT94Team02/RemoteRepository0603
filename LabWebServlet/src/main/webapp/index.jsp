@@ -11,6 +11,7 @@
 <body>
 
 <h3>Git Welcome ${user.custid}</h3>
+<h1>哈哈哈</h1>
 
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="${pageContext.request.contextPath}/pages/product.jsp">Poduct</a></h3>
