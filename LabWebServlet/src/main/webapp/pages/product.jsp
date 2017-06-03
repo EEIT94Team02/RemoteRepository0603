@@ -4,10 +4,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
-<title>Product</title>
+<title>Git Product</title>
 <script type="text/javascript" src="../js/json2.js"></script>
 <script type="text/javascript" src="../js/product.js"></script>
 <script type="text/javascript">
@@ -39,41 +39,8 @@ function clearForm() {
 
 <h3>Welcome ${user.email}</h3>
 
-<h3>xxxProduct Table</h3>
-<title>Product</title>
-<script type="text/javascript" src="../js/json2.js"></script>
-<script type="text/javascript" src="../js/product.js"></script>
-<script type="text/javascript">
-var contextPath = "${pageContext.request.contextPath}";
-function doBlur() {
-	document.getElementById("img").style.display = "inline";
-	document.getElementsByTagName("form")[0].id.disabled = true;
-	
-	var id = document.getElementsByTagName("form")[0].id.value;
-// 	sendGetRequest(id, contextPath+"/pages/product.view");
-// 	sendPostRequest(id, contextPath+"/pages/product.view");
-	sendPostJsonRequest(id, contextPath+"/pages/product.view");
-}
-function clearForm() {
-	var spanElement = document.getElementsByTagName("span")[0];
-	if(spanElement.hasChildNodes()) {
-		spanElement.removeChild(spanElement.firstChild);
-	}
-	var inputs = document.getElementsByTagName("input");
-	for(var i=0; i<inputs.length; i++) {
-		if(inputs[i].type=="text") {
-  			inputs[i].value="";
-		}
-	}
-}
-</script>
-</head>
-<body>
-
-<h3>Welcome ${user.email}</h3>
-
-<h3>OOO Product Table</h3>
-<h6>請輸入資料</h6>
+<h3>Git Product Table</h3>
+<h4><a href="${pageContext.request.contextPath}/index.jsp">Back Home</a></h4>
 <form action="<c:url value="/pages/product.controller" />" method="get">
 <table>
 	<tr>

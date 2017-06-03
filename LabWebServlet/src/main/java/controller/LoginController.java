@@ -32,6 +32,7 @@ public class LoginController {
 		model.addAttribute("errors", errors);
 		
 		if(username==null || username.length()==0) {
+			
 			errors.put("xxx", "請輸入帳號第二次Commit測試");
 		}
 		if(password==null || password.length()==0) {

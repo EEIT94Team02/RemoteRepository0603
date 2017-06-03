@@ -6,7 +6,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
+=======
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+
+>>>>>>> branch 'master' of https://github.com/EEIT94Team02/RemoteRepository0603.git
 <title>Git Login</title>
 </head>
 <body>
