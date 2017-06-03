@@ -8,23 +8,24 @@
 
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-<title>Login</title>
+<title>Git Login</title>
 </head>
 <body>
 
-<h3>登入</h3>
+<h3>Git Login</h3>
+<h4><a href="${pageContext.request.contextPath}/index.jsp">Back Home</a></h4>
 
 <form action="<c:url value="/secure/login.controller" />" method="get">
 <table>
 	<tr>
 		<td>ID : </td>
 		<td><input type="text" name="username" value="${param.username}"></td>
-		<td>${errors.xxx}</td>
+		<td>${errors.usernameError}</td>
 	</tr>
 	<tr>
 		<td>PWD : </td>
 		<td><input type="text" name="password" value="${param.password}"></td>
-		<td>${errors.ooo}</td>
+		<td>${errors.passwordError}</td>
 	</tr>
 	<tr>
 		<td>　</td>

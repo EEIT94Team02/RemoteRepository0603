@@ -42,7 +42,11 @@ function hidePhoto() {
 	}
 }
 </script>
+<<<<<<< HEAD
 <title>Display</title>
+=======
+<title>Git Display</title>
+>>>>>>> branch 'master' of https://github.com/EEIT94Team02/RemoteRepository0603.git
 </head>
 <body>
 
