@@ -8,11 +8,11 @@
 
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-<title>Login</title>
+<title>Git Login</title>
 </head>
 <body>
 
-<h3>Login</h3>
+<h3>Git Login</h3>
 
 <form action="<c:url value="/secure/login.controller" />" method="get">
 <table>
