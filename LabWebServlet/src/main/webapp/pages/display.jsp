@@ -46,7 +46,7 @@ function hidePhoto() {
 
 <title>Display</title>
 
-<title>Git Display</title>
+<title>KAPPA Display</title>
 
 
 </head>
